@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:orientation="vertical"
+android:id="@+id/main1">
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"/>
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="더하기"
+        android:textSize="24dp"
+        android:id="@+id/b1"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="빼기"
+        android:textSize="24dp"
+        android:id="@+id/b2"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="곱하기"
+        android:textSize="24dp"
+        android:id="@+id/b3"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="나누기"
+        android:textSize="24dp"
+        android:id="@+id/b4"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="계산 결과 : "
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:textColor="#ff0904"
+        android:id="@+id/tv1" />
+</LinearLayout>
