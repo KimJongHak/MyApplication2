@@ -21,7 +21,6 @@ public class MainActivity extends Activity {
         setTitle("메인 액티비티");
 
         Button btnNewActivity = (Button) findViewById(R.id.btnNewActivity);
-        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
         final RadioButton radioButton[] = {
                 (RadioButton) findViewById(R.id.add),
                 (RadioButton) findViewById(R.id.sub),
